@@ -10,11 +10,15 @@ gus = datajson['RealtimeCityAir']['row']
 for gu in gus :
     if gu['IDEX_MVL'] < 80:
         print(gu['MSRSTE_NM'], gu['IDEX_MVL'])
+print(gus)
+
 
 def get_mise(gu_name):
     for gu in gus:
         if gu['MSRSTE_NM'] == gu_name:
-            return gu['INDEX_MVL']
-    return '일치하는 구 이름이 없습니다.'
+            return gu['IDEX_MVL']
+    return '일치하는 구 이름이 없습니다'
 
 print(get_mise('종로구'))
+print(get_mise('중구'))
+print(get_mise('중그'))
