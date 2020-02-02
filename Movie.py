@@ -13,11 +13,21 @@ soup = BeautifulSoup(data.text, 'html.parser')
 
 #old_content > table > tbody > tr :nth-child(2) > td.title > div > a
 movies = soup.select('#old_content > table > tbody > tr')
+#old_content > table > tbody > tr:nth-child(2) > td.point
+
+
 
 # movies (tr들)의 반복문 돌리기
+rank = 1
 for movie in movies:
     #movie 안에 a 가 있으면,
     a_tag = movie.select_one('td.title > div > a')
     if a_tag is not None:
+        title = a_tag.text
+        star = movie.select_one('td.point').text
         # a의 text를 찍어본다.
-        print (a_tag.text)
+        print (rank,title,star)
+        rank += 1
+
+
+
