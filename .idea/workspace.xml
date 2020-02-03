@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4826481f-c702-4b02-a174-b5a13ee87ccf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Mongo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Music.py" beforeDir="false" afterPath="$PROJECT_DIR$/Music.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +30,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Music">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
     <configuration name="Mongo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="New" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,7 +114,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/New.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="flask" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,7 +135,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hello.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.flask" />
         <item itemvalue="Python.Music" />
         <item itemvalue="Python.Mongo" />
         <item itemvalue="Python.Movie" />
-        <item itemvalue="Python.New" />
-        <item itemvalue="Python.hello" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580649775105</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="review">
+      <created>1580652050992</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580652050992</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,59 +221,59 @@
     <option name="LAST_COMMIT_MESSAGE" value="review" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="37" y="50" key="CommitChangelistDialog2" timestamp="1580649774853">
+    <state x="37" y="50" key="CommitChangelistDialog2" timestamp="1580652050725">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
-    <state x="37" y="50" key="CommitChangelistDialog2/37.23.1403.877@37.23.1403.877" timestamp="1580649774853" />
-    <state width="738" height="163" key="GridCell.Tab.0.bottom" timestamp="1580652013741">
+    <state x="37" y="50" key="CommitChangelistDialog2/37.23.1403.877@37.23.1403.877" timestamp="1580652050725" />
+    <state width="697" height="173" key="GridCell.Tab.0.bottom" timestamp="1580728278105">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="697" height="173" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580728278105" />
+    <state width="738" height="163" key="GridCell.Tab.0.bottom/37.23.1403.877@37.23.1403.877" timestamp="1580657360657" />
+    <state width="697" height="173" key="GridCell.Tab.0.center" timestamp="1580728278104">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="697" height="173" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580728278104" />
+    <state width="738" height="163" key="GridCell.Tab.0.center/37.23.1403.877@37.23.1403.877" timestamp="1580657360656" />
+    <state width="697" height="173" key="GridCell.Tab.0.left" timestamp="1580728278103">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="697" height="173" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580728278103" />
+    <state width="738" height="163" key="GridCell.Tab.0.left/37.23.1403.877@37.23.1403.877" timestamp="1580657360655" />
+    <state width="697" height="173" key="GridCell.Tab.0.right" timestamp="1580728278105">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="697" height="173" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580728278105" />
+    <state width="738" height="163" key="GridCell.Tab.0.right/37.23.1403.877@37.23.1403.877" timestamp="1580657360656" />
+    <state width="691" height="205" key="GridCell.Tab.1.bottom" timestamp="1580657360636">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1579613746565" />
-    <state width="738" height="163" key="GridCell.Tab.0.bottom/37.23.1403.877@37.23.1403.877" timestamp="1580652013741" />
-    <state width="738" height="163" key="GridCell.Tab.0.center" timestamp="1580652013740">
+    <state width="691" height="205" key="GridCell.Tab.1.bottom/37.23.1403.877@37.23.1403.877" timestamp="1580657360636" />
+    <state width="691" height="205" key="GridCell.Tab.1.center" timestamp="1580657360635">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1579613746563" />
-    <state width="738" height="163" key="GridCell.Tab.0.center/37.23.1403.877@37.23.1403.877" timestamp="1580652013740" />
-    <state width="738" height="163" key="GridCell.Tab.0.left" timestamp="1580652013740">
+    <state width="691" height="205" key="GridCell.Tab.1.center/37.23.1403.877@37.23.1403.877" timestamp="1580657360635" />
+    <state width="691" height="205" key="GridCell.Tab.1.left" timestamp="1580657360634">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1579613746562" />
-    <state width="738" height="163" key="GridCell.Tab.0.left/37.23.1403.877@37.23.1403.877" timestamp="1580652013740" />
-    <state width="738" height="163" key="GridCell.Tab.0.right" timestamp="1580652013741">
+    <state width="691" height="205" key="GridCell.Tab.1.left/37.23.1403.877@37.23.1403.877" timestamp="1580657360634" />
+    <state width="691" height="205" key="GridCell.Tab.1.right" timestamp="1580657360635">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1579613746564" />
-    <state width="738" height="163" key="GridCell.Tab.0.right/37.23.1403.877@37.23.1403.877" timestamp="1580652013741" />
-    <state width="691" height="205" key="GridCell.Tab.1.bottom" timestamp="1580636698757">
-      <screen x="37" y="23" width="1403" height="877" />
+    <state width="691" height="205" key="GridCell.Tab.1.right/37.23.1403.877@37.23.1403.877" timestamp="1580657360635" />
+    <state x="208" y="79" key="SettingsEditor" timestamp="1580721906789">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="691" height="205" key="GridCell.Tab.1.bottom/37.23.1403.877@37.23.1403.877" timestamp="1580636698757" />
-    <state width="691" height="205" key="GridCell.Tab.1.center" timestamp="1580636698756">
-      <screen x="37" y="23" width="1403" height="877" />
-    </state>
-    <state width="691" height="205" key="GridCell.Tab.1.center/37.23.1403.877@37.23.1403.877" timestamp="1580636698756" />
-    <state width="691" height="205" key="GridCell.Tab.1.left" timestamp="1580636698756">
-      <screen x="37" y="23" width="1403" height="877" />
-    </state>
-    <state width="691" height="205" key="GridCell.Tab.1.left/37.23.1403.877@37.23.1403.877" timestamp="1580636698756" />
-    <state width="691" height="205" key="GridCell.Tab.1.right" timestamp="1580636698757">
-      <screen x="37" y="23" width="1403" height="877" />
-    </state>
-    <state width="691" height="205" key="GridCell.Tab.1.right/37.23.1403.877@37.23.1403.877" timestamp="1580636698757" />
-    <state x="240" y="100" key="SettingsEditor" timestamp="1580649835384">
-      <screen x="37" y="23" width="1403" height="877" />
-    </state>
-    <state x="208" y="79" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1579341086912" />
+    <state x="208" y="79" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1580721906789" />
     <state x="240" y="100" key="SettingsEditor/37.23.1403.877@37.23.1403.877" timestamp="1580649835384" />
     <state width="500" height="400" key="SwitcherDM" timestamp="1579336921389">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
     <state width="500" height="400" key="SwitcherDM/37.23.1403.877@37.23.1403.877" timestamp="1579336921389" />
-    <state x="37" y="188" key="Vcs.Push.Dialog.v2" timestamp="1580649779009">
+    <state x="37" y="188" key="Vcs.Push.Dialog.v2" timestamp="1580652055962">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
-    <state x="37" y="188" key="Vcs.Push.Dialog.v2/37.23.1403.877@37.23.1403.877" timestamp="1580649779009" />
+    <state x="37" y="188" key="Vcs.Push.Dialog.v2/37.23.1403.877@37.23.1403.877" timestamp="1580652055962" />
     <state x="365" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1580529362137">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
