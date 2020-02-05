@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from pymongo import MongoClient
 client = MongoClient('localhost',27017)
-db = client.MusicRankTimeline
+db = client.MusicRankTime
 
 
 
@@ -20,11 +20,12 @@ for n in range (10):
 #body-content > div.songlist-box > div.music-list-wrap > table > tbody > tr:nth-child(1) > td.info > a.artist.ellipsis
 
     rank = 1
-    for  in musics:
-        a_tag = n.select_one('a.title.ellipsis')
+    Time = n
+    for Time in musics:
+        a_tag = Time.select_one('a.title.ellipsis')
         if a_tag is not None:
             title = a_tag.text
-            singer = n.select_one('a.artist.ellipsis').text
+            singer = Time.select_one('a.artist.ellipsis').text
 
             doc = {
             'rank' : rank,
@@ -33,7 +34,7 @@ for n in range (10):
             }
 
             # db.In2018.delete_one(doc)
-            db.n.insert_one(doc)
+            db.Time.insert_one(doc)
             rank += 1
 
 
