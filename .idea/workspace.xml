@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4826481f-c702-4b02-a174-b5a13ee87ccf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Likeit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Music.py" beforeDir="false" afterPath="$PROJECT_DIR$/Music.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TimelineChart.py" beforeDir="false" afterPath="$PROJECT_DIR$/TimelineChart.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +37,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Music">
-    <configuration name="Mongo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Likeit">
+    <configuration name="Likeit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,7 +50,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mongo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Likeit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Likeit" />
         <item itemvalue="Python.Music" />
         <item itemvalue="Python.TimelineChart" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.flask" />
-        <item itemvalue="Python.Mongo" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580905020950</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="assignment">
+      <created>1580912531523</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580912531523</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -243,31 +249,31 @@
     <option name="LAST_COMMIT_MESSAGE" value="assignment" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="37" y="50" key="CommitChangelistDialog2" timestamp="1580905020590">
-      <screen x="37" y="23" width="1403" height="877" />
+    <state x="0" y="28" key="CommitChangelistDialog2" timestamp="1580912530906">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="28" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580731247954" />
+    <state x="0" y="28" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1580912530906" />
     <state x="37" y="50" key="CommitChangelistDialog2/37.23.1403.877@37.23.1403.877" timestamp="1580905020590" />
-    <state width="1419" height="173" key="GridCell.Tab.0.bottom" timestamp="1580905692825">
+    <state width="814" height="173" key="GridCell.Tab.0.bottom" timestamp="1581009035024">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="173" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580905692825" />
-    <state width="758" height="173" key="GridCell.Tab.0.bottom/37.23.1403.877@37.23.1403.877" timestamp="1580905160978" />
-    <state width="1419" height="173" key="GridCell.Tab.0.center" timestamp="1580905692823">
+    <state width="814" height="173" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581009035024" />
+    <state width="1419" height="173" key="GridCell.Tab.0.bottom/37.23.1403.877@37.23.1403.877" timestamp="1580995931695" />
+    <state width="814" height="173" key="GridCell.Tab.0.center" timestamp="1581009035022">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="173" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580905692823" />
-    <state width="758" height="173" key="GridCell.Tab.0.center/37.23.1403.877@37.23.1403.877" timestamp="1580905160978" />
-    <state width="1419" height="173" key="GridCell.Tab.0.left" timestamp="1580905692821">
+    <state width="814" height="173" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581009035022" />
+    <state width="1419" height="173" key="GridCell.Tab.0.center/37.23.1403.877@37.23.1403.877" timestamp="1580995931692" />
+    <state width="814" height="173" key="GridCell.Tab.0.left" timestamp="1581009035021">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="173" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580905692821" />
-    <state width="758" height="173" key="GridCell.Tab.0.left/37.23.1403.877@37.23.1403.877" timestamp="1580905160977" />
-    <state width="1419" height="173" key="GridCell.Tab.0.right" timestamp="1580905692824">
+    <state width="814" height="173" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581009035021" />
+    <state width="1419" height="173" key="GridCell.Tab.0.left/37.23.1403.877@37.23.1403.877" timestamp="1580995931692" />
+    <state width="814" height="173" key="GridCell.Tab.0.right" timestamp="1581009035023">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="173" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580905692824" />
-    <state width="758" height="173" key="GridCell.Tab.0.right/37.23.1403.877@37.23.1403.877" timestamp="1580905160978" />
+    <state width="814" height="173" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581009035023" />
+    <state width="1419" height="173" key="GridCell.Tab.0.right/37.23.1403.877@37.23.1403.877" timestamp="1580995931693" />
     <state width="691" height="205" key="GridCell.Tab.1.bottom" timestamp="1580657360636">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
@@ -293,21 +299,21 @@
       <screen x="37" y="23" width="1403" height="877" />
     </state>
     <state width="500" height="400" key="SwitcherDM/37.23.1403.877@37.23.1403.877" timestamp="1579336921389" />
-    <state x="0" y="169" key="Vcs.Push.Dialog.v2" timestamp="1580912519436">
+    <state x="0" y="169" key="Vcs.Push.Dialog.v2" timestamp="1580912535574">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="169" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580912519436" />
+    <state x="0" y="169" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1580912535574" />
     <state x="37" y="188" key="Vcs.Push.Dialog.v2/37.23.1403.877@37.23.1403.877" timestamp="1580905029106" />
     <state x="365" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1580529362137">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="365" y="280" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1580529362137" />
     <state x="393" y="296" key="com.intellij.ide.util.TipDialog/37.23.1403.877@37.23.1403.877" timestamp="1579336888975" />
-    <state x="744" y="179" width="696" height="721" key="dock-window-1" timestamp="1580905831062">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="847" y="0" width="593" height="900" key="dock-window-1" timestamp="1581005798482">
+      <screen x="37" y="23" width="1403" height="877" />
     </state>
     <state x="744" y="179" width="696" height="721" key="dock-window-1/0.0.1440.900@0.0.1440.900" timestamp="1580905831062" />
-    <state x="695" y="23" width="745" height="877" key="dock-window-1/37.23.1403.877@37.23.1403.877" timestamp="1580905696843" />
+    <state x="847" y="0" width="593" height="900" key="dock-window-1/37.23.1403.877@37.23.1403.877" timestamp="1581005798482" />
     <state x="102" y="23" width="574" height="666" key="dock-window-2" timestamp="1580651134386">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
