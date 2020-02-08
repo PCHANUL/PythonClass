@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4826481f-c702-4b02-a174-b5a13ee87ccf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Newpage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meta.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Likeit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Likeit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,14 +33,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Likeit">
+  <component name="RunManager" selected="Python.app">
     <configuration name="Likeit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,7 +83,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TimelineChart" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Newpage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,7 +95,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TimelineChart.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Newpage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="flask" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="meta" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,7 +137,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meta.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.meta" />
+        <item itemvalue="Python.Newpage" />
         <item itemvalue="Python.Likeit" />
         <item itemvalue="Python.Music" />
-        <item itemvalue="Python.TimelineChart" />
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python.flask" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581009221981</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="practice">
+      <created>1581084906094</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1581084906094</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -257,31 +267,35 @@
     <option name="LAST_COMMIT_MESSAGE" value="practice" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="28" key="CommitChangelistDialog2" timestamp="1581009221596">
+    <state x="425" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581149006189">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="425" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1581149006189" />
+    <state x="37" y="50" key="CommitChangelistDialog2" timestamp="1581084905765">
+      <screen x="37" y="23" width="1403" height="877" />
+    </state>
     <state x="0" y="28" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581009221596" />
-    <state x="37" y="50" key="CommitChangelistDialog2/37.23.1403.877@37.23.1403.877" timestamp="1580905020590" />
-    <state width="956" height="173" key="GridCell.Tab.0.bottom" timestamp="1581082721951">
+    <state x="37" y="50" key="CommitChangelistDialog2/37.23.1403.877@37.23.1403.877" timestamp="1581084905765" />
+    <state width="640" height="184" key="GridCell.Tab.0.bottom" timestamp="1581154451181">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
-    <state width="814" height="173" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581009361583" />
-    <state width="956" height="173" key="GridCell.Tab.0.bottom/37.23.1403.877@37.23.1403.877" timestamp="1581082721951" />
-    <state width="956" height="173" key="GridCell.Tab.0.center" timestamp="1581082721950">
+    <state width="837" height="184" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581147504202" />
+    <state width="640" height="184" key="GridCell.Tab.0.bottom/37.23.1403.877@37.23.1403.877" timestamp="1581154451181" />
+    <state width="640" height="184" key="GridCell.Tab.0.center" timestamp="1581154451179">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
-    <state width="814" height="173" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581009361581" />
-    <state width="956" height="173" key="GridCell.Tab.0.center/37.23.1403.877@37.23.1403.877" timestamp="1581082721950" />
-    <state width="956" height="173" key="GridCell.Tab.0.left" timestamp="1581082721949">
+    <state width="837" height="184" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581147504200" />
+    <state width="640" height="184" key="GridCell.Tab.0.center/37.23.1403.877@37.23.1403.877" timestamp="1581154451179" />
+    <state width="640" height="184" key="GridCell.Tab.0.left" timestamp="1581154451179">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
-    <state width="814" height="173" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581009361579" />
-    <state width="956" height="173" key="GridCell.Tab.0.left/37.23.1403.877@37.23.1403.877" timestamp="1581082721949" />
-    <state width="956" height="173" key="GridCell.Tab.0.right" timestamp="1581082721950">
+    <state width="837" height="184" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581147504199" />
+    <state width="640" height="184" key="GridCell.Tab.0.left/37.23.1403.877@37.23.1403.877" timestamp="1581154451179" />
+    <state width="640" height="184" key="GridCell.Tab.0.right" timestamp="1581154451180">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
-    <state width="814" height="173" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581009361582" />
-    <state width="956" height="173" key="GridCell.Tab.0.right/37.23.1403.877@37.23.1403.877" timestamp="1581082721950" />
+    <state width="837" height="184" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581147504201" />
+    <state width="640" height="184" key="GridCell.Tab.0.right/37.23.1403.877@37.23.1403.877" timestamp="1581154451180" />
     <state width="691" height="205" key="GridCell.Tab.1.bottom" timestamp="1580657360636">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
@@ -298,20 +312,20 @@
       <screen x="37" y="23" width="1403" height="877" />
     </state>
     <state width="691" height="205" key="GridCell.Tab.1.right/37.23.1403.877@37.23.1403.877" timestamp="1580657360635" />
-    <state x="240" y="100" key="SettingsEditor" timestamp="1580898784761">
-      <screen x="37" y="23" width="1403" height="877" />
+    <state x="184" y="131" key="SettingsEditor" timestamp="1581140044680">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="131" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1580729440275" />
+    <state x="184" y="131" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581140044680" />
     <state x="240" y="100" key="SettingsEditor/37.23.1403.877@37.23.1403.877" timestamp="1580898784761" />
     <state width="500" height="400" key="SwitcherDM" timestamp="1579336921389">
       <screen x="37" y="23" width="1403" height="877" />
     </state>
     <state width="500" height="400" key="SwitcherDM/37.23.1403.877@37.23.1403.877" timestamp="1579336921389" />
-    <state x="0" y="169" key="Vcs.Push.Dialog.v2" timestamp="1581009226882">
+    <state x="0" y="169" key="Vcs.Push.Dialog.v2" timestamp="1581139231876">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="169" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581009226882" />
-    <state x="37" y="188" key="Vcs.Push.Dialog.v2/37.23.1403.877@37.23.1403.877" timestamp="1580905029106" />
+    <state x="0" y="169" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581139231876" />
+    <state x="37" y="188" key="Vcs.Push.Dialog.v2/37.23.1403.877@37.23.1403.877" timestamp="1581084909894" />
     <state x="365" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1580529362137">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -326,9 +340,10 @@
       <screen x="37" y="23" width="1403" height="877" />
     </state>
     <state x="102" y="23" width="574" height="666" key="dock-window-2/37.23.1403.877@37.23.1403.877" timestamp="1580651134386" />
-    <state x="403" y="223" key="search.everywhere.popup" timestamp="1579336917967">
-      <screen x="37" y="23" width="1403" height="877" />
+    <state x="376" y="205" width="670" height="676" key="search.everywhere.popup" timestamp="1581141360025">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="376" y="205" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1581141360025" />
     <state x="403" y="223" key="search.everywhere.popup/37.23.1403.877@37.23.1403.877" timestamp="1579336917967" />
   </component>
 </project>

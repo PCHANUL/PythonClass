@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 from pymongo import MongoClient
 
-
 for a in range (1) :
 client = MongoClient('localhost',27017)
 db = client.Genre
